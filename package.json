@@ -1,0 +1,33 @@
+{
+  "name": "share-your-place-backend",
+  "version": "1.0.0",
+  "description": "Backend for ShareYourPlace",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbguard/share-your-place-backend.git"
+  },
+  "keywords": [],
+  "author": "Viktor Bulvarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbguard/share-your-place-backend/issues"
+  },
+  "homepage": "https://github.com/vbguard/share-your-place-backend#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
